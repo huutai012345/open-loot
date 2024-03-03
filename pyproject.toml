@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "openloot"
+version = "0.1.0"
+description = ""
+authors = ["prd-tai-nguyen <tai.nguyen@paradox.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scrapy = "^2.11.0"
+selenium = "^4.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
